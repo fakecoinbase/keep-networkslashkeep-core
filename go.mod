@@ -6,12 +6,11 @@ replace github.com/urfave/cli => github.com/keep-network/cli v1.20.0
 
 require (
 	github.com/BurntSushi/toml v0.3.1
-	github.com/VictoriaMetrics/fastcache v1.5.7 // indirect
 	github.com/aristanetworks/goarista v0.0.0-20200206021550-59c4040ef2d3 // indirect
 	github.com/btcsuite/btcd v0.20.1-beta
-	github.com/ethereum/go-ethereum v1.9.10
+	github.com/ethereum/go-ethereum v1.9.25
 	github.com/gogo/protobuf v1.3.1
-	github.com/google/gofuzz v1.1.0
+	github.com/google/gofuzz v1.1.1-0.20200604201612-c04b05f3adfa
 	github.com/ipfs/go-datastore v0.1.1
 	github.com/ipfs/go-log v0.0.1
 	github.com/keep-network/go-libp2p-bootstrap v0.0.0-20200423153828-ed815bc50aec
@@ -30,6 +29,5 @@ require (
 	github.com/pborman/uuid v1.2.0
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/urfave/cli v1.22.1
-	golang.org/x/crypto v0.0.0-20200208060501-ecb85df21340
-	golang.org/x/sys v0.0.0-20200202164722-d101bd2416d5 // indirect
+	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 )
